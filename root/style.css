@@ -1,0 +1,88 @@
+* {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    margin: 0;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+}
+html {
+    font-family: 'DejaVu Sans Mono Book', 'Ubuntu mono', 'Lucida Console', monospace;
+    font-size: 11pt;
+    line-height: 1.1em;
+    height: 100%;
+    background: #E7E4DA;
+}
+body {
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    background: #F6F3EA;
+    color: #263A40;
+}
+
+#header,#footer,#content {
+    position: absolute;
+    right: 0;
+    left: 0
+}
+#header{
+   top:0;
+   height: 1.1em;
+}
+#footer{
+  bottom:0;
+  height: 1.1em;
+}
+#content{
+  top: 2.1em;
+  bottom: 2.1em;
+  overflow-y: scroll;
+}
+
+a {
+    text-decoration: none;
+    color: #268bd2;
+}
+a:visited {
+    color: #6c71c4;
+}
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
+nav {
+    background: #E7E4DA;
+    padding: 0.5em;
+}
+nav a, nav a:visited {
+    color: #cb4b16;
+}
+
+.console_greeting {
+    float: left;
+    margin-right: 0.1em;
+}
+.console_wrapper {
+    overflow: hidden;
+    display: block;
+}
+#console {
+    width: 100%;
+    background: inherit;
+    border-bottom: 1px solid black;
+}
+
+#log span.CONSOLE {
+    color: #008;
+}
+#log span.WARN {
+    color: #840;
+}
+#log span.ERROR {
+    color: #f00;
+}

@@ -1,0 +1,2 @@
+daemon_socket = '../mcadmin-daemon/daemon.sock'
+openid_tmp_dir = '/tmp/mcadmin-flask'
